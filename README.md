@@ -3,7 +3,7 @@
 MANUFACTURING
 Production & Quality Dashboard — Analysis Report
 Source: 06_manufacturing_production.csv · 3,608,207 units across 4 lines, 3 shifts
-Prepared for: Arunabha Lahiri
+Prepared by: Arunabha Lahiri
 Report type: Dashboard analysis & insights summary
 Companion to: Power BI portfolio dashboard build
 Executive Summary
