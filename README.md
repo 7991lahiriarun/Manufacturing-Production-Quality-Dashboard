@@ -5,7 +5,7 @@ Production & Quality Dashboard — Analysis Report
 Source: 06_manufacturing_production.csv · 3,608,207 units across 4 lines, 3 shifts
 Prepared by: Arunabha Lahiri
 Report type: Dashboard analysis & insights summary
-Companion to: Power BI portfolio dashboard build
+Companion to: portfolio dashboard build
 Executive Summary
 The plant produced 3,608,207 units in the period at a defect rate of 3.47% and estimated OEE of 90.6% (availability 93.8% × quality 96.53%). Total downtime across all lines was 1,479 hours. Defect rates are broadly consistent across the four production lines (a spread of well under 1 percentage point), and supplier quality score shows essentially no correlation with defect rate (r = 0.003) in this dataset — meaning defects here are not explained by incoming material quality and are more likely driven by machine- or process-level factors.
 Detailed Analysis
@@ -27,4 +27,4 @@ Key Recommendations
 4. Line and shift differences are small enough to deprioritize as improvement targets in favor of machine-level maintenance.
 Data & Methodology Notes
 This dataset is synthetically generated for portfolio purposes; the Performance component of OEE uses a simplified proxy (no true ideal-cycle-time field exists in the raw data), and the lack of correlation between supplier quality and defects reflects the synthetic generation process rather than a real causal finding. A production analysis would also track defect type/root cause codes, not just defect count.
-Methodology: figures in this report are computed directly from the underlying row-level dataset (not estimated), using the same aggregation logic as the DAX measures defined for the companion Power BI dashboard, so the numbers here should reconcile with the dashboard's KPI cards and charts.
+Methodology: figures in this report are computed directly from the underlying row-level dataset (not estimated), using the same aggregation logic as the DAX measures defined for the companion dashboard, so the numbers here should reconcile with the dashboard's KPI cards and charts.
